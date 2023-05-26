@@ -1,0 +1,174 @@
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.single-product .col-2{
+    padding: 20px;
+}
+
+.single-product .col-2 img{
+    padding:0px;
+}
+
+#title a {
+    margin: 0 auto 20px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    transition: transform 0.5s;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* cho phep nam tren cung mot hang du cho container thay doi*/
+    justify-content: space-around;
+}
+
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+    /* margin-bottom: 50px; */
+}
+
+
+
+.col-2 img{
+    max-width: 100%;
+    /* padding: 50px 0; */
+}
+
+form{
+    margin-top: -100px;
+}
+/*
+.col-2 h2{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+} */
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.colors{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.color{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 15px;
+    border: 4px solid;
+    cursor: pointer;
+    transition: .5s;
+   
+}
+
+#radio-color{
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+
+.color[color="white"]{
+    background-color: #fff;
+    border-color: #000;
+}
+
+.color[color="nude"]{
+    background-color: #ffb8a2;
+    border-color: #ffb8a2;
+}
+
+.sizes{
+    display:flex;
+}
+
+.size-small{
+    border: 1px solid #ccc;
+    width: 70px;
+}
+
+.size-text {
+    padding-top: 10px;
+    height: 25px;
+    width: 25px;
+    margin: 0px 5px 0 5px;
+}
+
+#size,
+#color{
+    margin-left: -22px;
+    width: 50px;
+    height: 25px;
+    background-color: #fff;
+}
+
+#text-btn{
+    width: 50px;
+    height: 25px;
+    background-color: #fff;
+    margin-top: 15px;
+}
+
+h2,
+h4,
+p {
+    padding-top: 10px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+b{
+    color: rgb(85, 82, 82);
+    padding-top: 10px;
+}
+
+#btn {
+    width: 30px;
+    margin-top: 15px;
+    height: 25px;
+    background-color: #fff;
+}
+
+.btn-buy {
+    display: inline-block;
+    background: #ffd6d6;
+    color: rgb(12, 12, 12);
+    padding: 8px 10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+
+.btn-buy:hover {
+    background: #c98787;
+    color: #fff;
+}
